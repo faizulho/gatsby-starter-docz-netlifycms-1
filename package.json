@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-docz-netlifycms",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
-  "version": "0.1.0",
-  "description": "Easily spin up a static documentation site with Docz and Netlify CMS",
+  "name": "#ImMuhdFaizul's Legal Documents Website",
+  "author": "Muhammad Faizul <muhdfaizul@mail.ru>",
+  "version": "1.0.0",
+  "description": "Website of #ImMuhdFaizul, containing all legal documents for his assets and assets of subsidiaries under it",
   "license": "MIT",
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
+    "immuhdfaizul",
+    "legal policies",
     "docz",
     "documentation",
     "netlify cms"
@@ -26,9 +26,9 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "homepage": "https://github.com/colbyfayock/gatsby-starter-docz-netlifycms",
-  "repository": "git@github.com:colbyfayock/gatsby-starter-docz-netlifycms.git",
+  "homepage": "https://github.com/faizulho/gatsby-starter-docz-netlifycms-1",
+  "repository": "git@github.com:faizulho/gatsby-starter-docz-netlifycms-1.git",
   "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-docz-netlifycms/issues"
+    "url": "https://github.com/faizul/gatsby-starter-docz-netlifycms-1/issues"
   }
 }
