@@ -3,7 +3,7 @@ const projectRoot = __dirname.replace('/.docz', '');
 const { menuItems } = require(`${projectRoot}/config/menu.json`);
 
 export default {
-  files: 'docs/**/*.{md,markdown,mdx}',
-  title: 'immuhdfaizul-docz',
+  files: 'docs/**/*.{html,md,markdown,mdx}',
+  title: 'ImMuhdFaizul Documents Portal',
   menu: menuItems
 }
