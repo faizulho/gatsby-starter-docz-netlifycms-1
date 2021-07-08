@@ -5,7 +5,7 @@ init({
     backend: {
       name: 'git-gateway'
     },
-    load_config_file: true,
+    load_config_file: false,
     media_folder: 'docs/images/uploads',
     public_folder: '/images/uploads',
     collections: [
@@ -31,11 +31,13 @@ init({
           },
           {
             label: 'Route',
-            name: 'route'
+            name: 'route',
+            required: false
           },
           {
             label: 'Body',
             name: 'body',
+            widget: 'html',
             widget: 'markdown'
           },
         ]
