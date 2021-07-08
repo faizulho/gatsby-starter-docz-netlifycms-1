@@ -4,6 +4,11 @@
   "version": "1.0.0",
   "description": "Website of #ImMuhdFaizul, containing all legal documents for his assets and assets of subsidiaries under it",
   "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
   "keywords": [
     "immuhdfaizul",
     "legal policies",
@@ -11,11 +16,7 @@
     "documentation",
     "netlify cms"
   ],
-  "browserslist": [
-    "defaults",
-    "not IE 11",
-    "maintained node versions"
-  ]
+  
   "scripts": {
     "develop": "docz dev",
     "build": "docz build --dest public",
