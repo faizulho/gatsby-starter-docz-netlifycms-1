@@ -5,7 +5,7 @@ init({
     backend: {
       name: 'git-gateway'
     },
-    load_config_file: false,
+    load_config_file: true,
     media_folder: 'docs/images/uploads',
     public_folder: '/images/uploads',
     collections: [
