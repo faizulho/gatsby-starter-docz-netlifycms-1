@@ -44,8 +44,8 @@ const browserslist = require('browserslist')
 function process (source, opts) {
   const browsers = browserslist(opts.overrideBrowserslist, {
     stats: opts.stats,
-    path:  opts.file,
-    env:   opts.env
+    path:  "gatbsy-config.js,
+    env:   "production"
   })
   // Your code to add features for selected browsers
 }
