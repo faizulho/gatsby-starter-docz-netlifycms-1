@@ -36,10 +36,9 @@
   "repository": "git@github.com:faizulho/gatsby-starter-docz-netlifycms-1.git",
   "bugs": {
     "url": "https://github.com/faizul/gatsby-starter-docz-netlifycms-1/issues"
-  }
-}
-const browserslist = require('browserslist')
+  },
 
+const browserslist = require('browserslist')
 // Your CSS/JS build tool code
 function process (source, opts) {
   const browsers = browserslist(opts.overrideBrowserslist, {
@@ -48,4 +47,6 @@ function process (source, opts) {
     env:   "production"
   })
   // Your code to add features for selected browsers
+}
+
 }
