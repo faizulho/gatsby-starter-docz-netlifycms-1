@@ -7,7 +7,7 @@
   to = "/"
   status = 200
 
-[[redirects]]
-  from = "/admin"
-  to = "/static/admin"
-  status = 200
+//[[redirects]]
+// from = "/admin"
+//  to = "/static/admin"
+//  status = 200
